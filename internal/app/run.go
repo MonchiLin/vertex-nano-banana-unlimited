@@ -60,7 +60,7 @@ func DefaultRunOptions() RunOptions {
 		ImagePath:     imagePath,
 		PromptText:    "",
 		DownloadDir:   downloadDir,
-		Headless:      false,
+		Headless:      true,
 		ScenarioCount: scenarioCount,
 		StepPause:     stepPause,
 		SubStepPause:  subStepPause,
